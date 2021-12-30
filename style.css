@@ -5,8 +5,8 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     color: #fff;
     font-size: 15px;
-    line-height: 1.5em;
-    font-weight: 300;
+    line-height: 1.5em; /* 줄 높이를 정하는 속성. 1.2가 기본값임*/
+    font-weight: 400; /* 글자 굵기를 정하는 속성. 400이 기본값임*/
     margin: 0;
     background-color: #222;
 }
@@ -27,12 +27,16 @@ a {
 
 .item {
     width: 300px;
-    height: 200px;
+    height: 300px;
     display: inline-block;
     position: relative;
     margin: 10px;
 }
 
+.front img {
+    width: 157px;
+    height: 157px;
+}
 .front,
 .back {
     position: absolute;
