@@ -8,7 +8,7 @@ body {
     line-height: 1.5em; /* 줄 높이를 정하는 속성. 1.2가 기본값임*/
     font-weight: 400; /* 글자 굵기를 정하는 속성. 400이 기본값임*/
     margin: 0;
-    background-color: #222;
+    background-color: rgb(240, 229, 239);
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 .front {
-    background-color: #333;
+    background-color: rgb(212, 171, 209);;
     text-align: center;
     height: inherit;
     width: 100%;
@@ -57,7 +57,7 @@ a {
 }
 
 .front h2 {
-    margin-top: 0;
+    margin-top: 20px;
 }
 
 .back {
